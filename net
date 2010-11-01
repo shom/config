@@ -1,0 +1,15 @@
+# This blank configuration will automatically use DHCP for any net.*
+# scripts in /etc/init.d.  To create a more complete configuration,
+# please review /etc/conf.d/net.example and save your configuration
+# in /etc/conf.d/net (this file :]!).
+bridge_br0="eth0"
+brctl_br0=( "setfd 0" "sethello 0" "stp off" )
+#rc_need_br0="net.tap0 net.tap1 net.tap2 net.tap3"
+
+config_br0=( "192.168.0.8/24" )
+routes_br0=( "default via 192.168.0.1" )
+dns_domain_br0="domain.local"
+dns_servers_br0="202.102.224.68 202.102.227.68"
+dns_search_br0="domain.local"
+
+config_eth0=("null")

@@ -1,0 +1,10 @@
+sys-fs/udev extras
+media-video/ffmpeg threads
+media-sound/mpd sqlite
+media-sound/ncmpcpp clock taglib
+net-irc/weechat -gtk -spell
+net-im/openfetion notify
+app-emulation/qemu-kvm vde
+net-misc/openssh -ldap
+media-video/mplayer win32codecs
+app-i18n/scim-tables linguas_zh
