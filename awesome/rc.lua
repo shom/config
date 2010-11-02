@@ -142,8 +142,8 @@ volicon.image = image(beautiful.widget_vol)
 volwidget = widget({ type = "textbox" })
 vicious.register(volwidget, vicious.widgets.volume, "$1%", 2, "PCM")
 volwidget:buttons(awful.util.table.join(
-   awful.button({ }, 1, function () awful.util.spawn("xterm -e alsamixer") end),
-   awful.button({ }, 3, function () awful.util.spawn("amixer -q set Master toggle")   end),
+   awful.button({ }, 3, function () awful.util.spawn("xterm -e alsamixer") end),
+   awful.button({ }, 1, function () awful.util.spawn("amixer -q set Master toggle")   end),
    awful.button({ }, 4, function () awful.util.spawn("amixer -q set PCM 1dB+", false) end),
    awful.button({ }, 5, function () awful.util.spawn("amixer -q set PCM 1dB-", false) end)
 ))
