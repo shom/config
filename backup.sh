@@ -6,7 +6,7 @@ $rsync /etc/portage $bakdir -r
 cp /etc/mpd.conf $bakdir
 cp /etc/conf.d/net $bakdir
 cp /etc/hosts $bakdir
-
+#cp /etc/ssh/sshd_config $bakdir
 cp /usr/src/linux/.config $bakdir/kernel.config
 
 cp ~/.fonts.conf $bakdir
