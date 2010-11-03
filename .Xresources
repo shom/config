@@ -48,7 +48,7 @@ xterm*color2:       #99b33e
 xterm*color10:      #fe8686
 
 ! DarkYellow + Yellow
-xterm*color3:       #khaki
+xterm*color3:       #f0e68c
 !xterm*color11:      #efe58b
 xterm*color11:      #f0c600
 
